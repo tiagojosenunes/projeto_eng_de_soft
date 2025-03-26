@@ -109,20 +109,20 @@ table td {
 /* Responsividade */
 
 table td img {
-    height: 30px; /* Tamanho padrão */
+    height: 20px;
     width: auto;
 }
 
 /* Reduzir o tamanho das imagens em telas menores */
 @media (max-width: 768px) {
     table td img {
-        height: 20px; /* Diminui o tamanho em tablets */
+        height: 15px;
     }
 }
 
 @media (max-width: 480px) {
     table td img {
-        height: 15px; /* Diminui ainda mais em celulares */
+        height: 12px;
     }
 }
 
