@@ -107,6 +107,26 @@ table td {
 }
 
 /* Responsividade */
+
+table td img {
+    height: 30px; /* Tamanho padrão */
+    width: auto;
+}
+
+/* Reduzir o tamanho das imagens em telas menores */
+@media (max-width: 768px) {
+    table td img {
+        height: 20px; /* Diminui o tamanho em tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    table td img {
+        height: 15px; /* Diminui ainda mais em celulares */
+    }
+}
+
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 24px;
